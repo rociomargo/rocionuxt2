@@ -1,30 +1,18 @@
 <template>
     <div>
         <header class="flex justify-between mx-10 my-10">
-            <div>
-                Logo
+            <div class="text-4x1 text-pink-400">
+                <NuxtLink to="/"> LaTiendita </NuxtLink>
             </div>
             <div class="flex gap-8">
-                <button class="bg-pink-300 px-4 py-2 rounded-2xl">Home</button>
-                <button class="bg-pink-300 px-4 py-2 rounded-2xl">About</button>
-                <button class="bg-pink-300 px-4 py-2 rounded-2xl">Products</button>
+                <button class="btn"><NuxtLink to="/">Home</NuxtLink></button>
+                <button class="btn"><NuxtLink to="/about">About</NuxtLink></button>
+                <button class="btn"><NuxtLink to="/products">Products</NuxtLink></button>
             </div>
         </header>
-    </div>
-    <div> 
-        
-        <div class="mx-10 my-10 flex gap-7 ">
-        <button class="font-bold"> <NuxtLink to="/" home ></NuxtLink></button>
-        <button class="font-bold"> <NuxtLink to="/about" about ></NuxtLink></button>
-        <button class="font-bold"> <NuxtLink to="/products" products ></NuxtLink></button> 
-
         </div>
-    </div>
-
-<div>
     
     <slot/>
-</div>
 </template>
 
 <script setup>
