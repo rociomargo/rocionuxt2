@@ -2,7 +2,7 @@
    
        
     <div>
-        <h1 class="text-3x1 font-bold mx-10 my-10 text bg-pink-400">
+        <h1 class="text-3x2 font-bold mx-10 my-10 text bg-red-400">
         </h1>
     <div class="grid grid-cols-4 gap-5 mx-10">   
         <div v-for="p in products"> 
@@ -12,6 +12,9 @@
     </div>
 
     
+
+
+
 </template> 
 <script setup>
 definePageMeta({
